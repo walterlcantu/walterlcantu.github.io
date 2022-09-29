@@ -9,12 +9,15 @@ body {
 .navbar{
     overflow: hidden;
     text-align: right;
+    height: fit-content;
     
 }
-.navbar h2 {
-    font-size: 28px;
-    text-align: left;
-    margin-top: -28px;
+.navbar img {
+    width: 160px;
+    float: left;
+    opacity: .9;
+    margin-top: -10px;
+    
 }
 .navbar a {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -37,7 +40,14 @@ h2 {
 }
 .bio {
     display: flex;
-    padding: 10px;
+   
+    
+}
+
+.bio p{
+    font-size: 20px;
+    text-align: justify;
+    padding-bottom: 20px;
 }
 
 @media (max-width: 1024px){
@@ -61,6 +71,7 @@ a.btn{
     display: inline-flex;
     align-items: center;
     border-radius: 1.25rem;
+    margin-bottom: 20px;
 }
 
 article{
@@ -72,6 +83,11 @@ article{
     width: 500px;
     margin-left: 100px;
     border-radius: 3%;
+}
+.work p {
+    font-size: 18px;
+    text-align: justify;
+    padding: 20px;
 }
 @media (max-width: 1024px){
     article {
@@ -86,6 +102,30 @@ article{
 footer{
     display: block;
     text-align: center!important;
-    padding-top: 32px!important;
-    padding-bottom: 32px!important;
+    padding-top: 100px!important;
+    
+}
+.fa {
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: -8px;
+    font-size: 30px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook-square {
+    color: white;
+    
+}
+.fa-youtube-play {
+  color: white;
+}
+.fa-instagram {
+  color: white;
+}
+
+a:hover {
+    opacity: .5;
 }
