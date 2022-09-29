@@ -1,0 +1,423 @@
+
+/* Texto descriptivo*/
+@font-face {
+  font-family: "Open Sans";
+  src:url(./fonts/OpenSans-LightItalic.ttf)format('truetype');
+}
+@font-face {
+  font-family: "Open Sans Regular";
+  src:url(./fonts/OpenSans-Regular.ttf)format('truetype');
+}
+/* Título */
+@font-face {
+  font-family:"Petit Formal Script";
+  src:url(./fonts/PetitFormalScript-Regular.ttf)format('truetype');
+}
+/* Subtítulos*/
+@font-face {
+  font-family: "AlexBrush";
+  src:url(./fonts/AlexBrush-Regular.ttf)format('truetype');
+}
+
+body, p{font-family: 'Open Sans Regular';}
+h1 {
+  font-family: 'AlexBrush';
+  src:url(./fonts/PetitFormalScript-Regular.ttf)format('truetype');
+  letter-spacing: 5px;
+  font-size: 90px;
+}
+h2, h4, h5, h6 {
+  font-family: 'AlexBrush';
+  src:url(./fonts/PetitFormalScript-Regular.ttf)format('truetype');
+  letter-spacing: 3px;
+  font-size: 45px;
+}
+h3{
+  font-family: 'Open Sans Regular';
+  letter-spacing: 3px;
+  font-size: 30px;
+  margin-top: 100px;
+}
+#nosotros {
+  margin-bottom: -40px;
+}
+#nosotros h1{
+  font-size: 100px;
+}
+#creamos {
+  letter-spacing: 5px;
+  font-size: 50px;
+}
+#contenidoNosotros{
+  margin-top: -80px;
+}
+#nuestro{
+  margin-bottom: -80px;
+  font-size: 70px;
+}
+#contactanos{
+  margin-bottom: -140px;
+  font-size: 70px;
+}
+.w3-bar {
+  font-family: 'Open Sans Regular';
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header a.logo {
+  width: 250px;
+	position: absolute;
+	left: 20px;
+	top: 10px;
+	z-index:10;
+}
+
+.header {
+   z-index: 900;
+   position: fixed;
+   top: 0px;
+   width: 98%;
+   padding: 1px 10px;
+
+}
+
+.header-right {
+   z-index: 900;
+   position: fixed;
+   top: 0px;
+   width: 98%;
+   float: right;
+   padding: 1px 10px;
+
+}
+
+.header-right a{
+  float: left;
+  display:block;
+  color: black;
+  text-align: right;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 10px;
+  border-radius: 2px;
+
+}
+
+.header-right #submenu{
+  float:right;
+  margin-top: 10px;
+}
+
+#submenu a{
+  margin-left: 24px;
+}
+
+#social {
+  float: right;
+  margin-left: 0px;
+}
+
+.header-right a:hover {
+  opacity: 0.7;
+
+}
+
+.header-right .icon {
+  display:none;
+}
+
+#bars a{
+  font-size: 30px;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .header-right a:not(:first-child) {display: none;}
+  .social a:not(first-child) {display:none;}
+  .header-right a.icon {
+    float: right;
+    display: block;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header-right.responsive {position: relative;}
+  .header-right.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+  }
+  .header-right.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+
+  }
+}
+
+/*SocialMediaButtonStyle*/
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border:0px solid white;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    color: black;
+}
+
+.fa-instagram {
+  color: black;
+}
+
+.bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6{
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.bgimg-3 {
+  background-image: url("./images/mixing console.jpg");
+  min-height: 500px;
+}
+
+.bgimg-4 {
+  background-image: url("./images/art-band-bass.jpg");
+  min-height: 400px;
+}
+
+.bgimg-6 {
+  background-image: url("./images/industry-macro-mic.jpg");
+  min-height: 400px;
+}
+
+.services, .nosotros, .bienvenida, .estudio, .contact{
+  color: rgb(0,0,0);
+  background-color: white;
+  padding: 5px 80px;
+  text-align: center;
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+ .contact{
+  color: rgb(0,0,0);
+  background-color: white;
+  padding: 5px 80px;
+  text-align: left;
+  font-size: 16px;
+  opacity: 0.9;
+}
+.portafolio {
+  color: #777;
+  background-color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  padding: 5px 80px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+#slider {
+  margin-top: 16px;
+  margin-bottom: -23px;
+}
+
+
+
+@media screen and (orientation: portrait) {
+  div.servicesIcons {margin-left: -50px;}
+}
+
+.servicesIcons img {
+  padding: 0 100px;
+  width:80px;
+  height:80px;
+}
+
+.software div{
+  display:inline-block;
+}
+.software img {
+    width:100%;
+
+}
+
+/* Contact Form*/
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: sans-serif;
+}
+
+input[type=submit] {
+    background-color: gray;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+    text-align: left;
+    font-family: 'Open Sans';
+    font-style: italic;
+}
+
+.portafolio div{
+  display: inline-block;
+}
+
+.portafolio1 p {
+  text-align: center;
+}
+
+
+/* CSS SLIDER */
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 4.0s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .3}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .3}
+  to {opacity: 1}
+}
+
+#myDIVH {
+  width: 100%;
+  padding: 10px 0;
+  text-align: justify;
+  background-color: white;
+  margin-top: 2px;
+  display:none;
+}
+#myDIVM {
+  width: 100%;
+  padding: 10px 0;
+  text-align: justify;
+  background-color: white;
+  margin-top: 2px;
+  display:none;
+}
+
+.btn {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  display: inline-block;
+  width:1000px;
+}
+
+.btn:hover {background: #eee;}
+
+.success {color: green;}
+.info {color: dodgerblue;}
+.warning {color: orange;}
+.danger {color: red;}
+.default {color: black;}
+
+/* Certifiaciones en premium.html*/
+
+.certificaciones img{
+  margin-left: 60px;
+  margin-right: 60px;
+}
+#cambiarTamaño img{
+  width:218px;
+  height:142px;
+}
+
+#premiumLogo img{
+  width:45%;
+}
+#caminoLogo img{
+  width:40%;
+}
+@media screen and (max-width: 500px) {
+  .certificaciones img {
+    width: 28%;
+    margin: 30px;
+  }
+  #portadaPremium {
+    margin-top: 100px;
+  }
+  #slider {
+    margin-top: 100px;
+  }
+  #galeria img{
+    margin-top: 20px;
+  }
+  #cambiarTamaño img{
+    width: 100%;
+    height: auto;
+  }
+  #portafolio a{
+    width:160%;
+  }
+  #premiumLogo img{
+    width:85%;
+  }
+  #caminoLogo img{
+    width:75%;
+  }
+  #certificaciones {
+    margin-top: -140px;
+  }
+  #contactanos {
+    margin-top: -100px;
+  }
+}
