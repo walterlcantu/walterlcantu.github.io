@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <link href='./img/lalobita_logo.ico' rel='shortcut icon' type='image/x-icon'>
+        <title>La Lobita</title>
+    </head>
+    <body>
+        <nav>
+            <div class="botones">
+                <div class="boton" id="btn-inicio"><a href="#slider">INICIO</a></div>
+                <div class="boton">
+                    <a href="#mas-informacion">
+                        <span id="btn-info">INFO</span>
+                        <span id="btn-mas-info">MÁS INFORMACIÓN</span> 
+                    </a>
+                </div>
+                <div class="boton"><a href="#contacto">CONTACTO</a></div>
+                <div class="boton"><a href="#ubicacion">UBICACIÓN</a></div>
+            </div> 
+        </nav>
+
+        <!-- Carrusel -->
+        <div class="slideshow-container" id="slider">
+            
+            <div class="mySlides fade">
+                <img src="./img/Imagen_carrusel1.png" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="./img/imagen_carrusel2.png" style="width:100%">
+            </div>
+        </div>
+        <!-- -->
+        <div class="logo">
+            <img src="./img/lalobita_logo.png" alt="lalobita_logo">
+        </div>
+
+        <div class="imagenes">
+            <div class="imagen-color" id="img-1">
+                <img src="./img/imagen1.jpg" alt="imagen1">
+            </div>
+            <div class="imagen-color" id="img-2">
+                <img src="./img/imagen2.jpg" alt="imagen2">
+            </div>
+        </div>
+
+        <div class="banner-verde" id="mas-informacion">
+            <h1>Terrenos Residencial Campestre "La Lobita"</h1>
+            <br>
+            <span>
+                Uno de los corredores turísticos más importantes del estado de Nuevo León
+                <br>
+                Ubicado muy cerca de los Cavazos, La Cueva de los murciélagos y La
+                <br>
+                Presa de la Boca. Con inigualables vistas en la zona más verde del estado.
+            </span>
+        </div>
+
+        <div class="banner-blanco">
+            <h1>¡Empieza a construir tu patrimonio!</h1>
+            <br>
+            <span>
+                El fraccionamiento cuenta con 70 lotes con
+                <br>
+                superficies que van desde los 1,000 m<sup>2</sup>.
+                <br>
+                Increíbles y amplios espacios para que puedas 
+                <br>
+                transformar tu vida junto a tu familia.
+                <br>
+                Ideal para construir la quinta de tus sueños.
+            </span>
+        </div>
+        <div class="img-mapa" id="lotes">
+            <img src="./img/MAPA.png" alt="mapa">
+        </div>
+
+        <div id="integrado"><h1>Integrado con:</h1></div>
+        <div class="iconos">
+            <div class="icono">
+                <img src="./img/icono_vigilancia.png" alt="icono-vigilancia">
+                <br>
+                <span>Caseta de vigilancia</span>
+            </div>
+            <div class="icono">
+                <img src="./img/icono_energia.png" alt="icono-energia">
+                <br>
+                <span>Energía eléctrica <br> subterránea</span>
+            </div>
+        </div>
+        <div class="iconos">
+            <div class="icono">
+                <img src="./img/agua_icono.png" alt="agua-icono">
+                <br>
+                <span>Red de agua con <br> distribución de pozos</span>
+                
+            </div>
+            <div class="icono">
+                <img src="./img/alumbrado_icono.png" alt="alumbrado-icono">
+                <br>
+                <span>Alumbrado público</span>
+            </div>
+        </div>
+
+        <div class="formulario">
+            <h1>Contacto</h1>
+            <div class="container" id="contacto">
+                <form action="sendemail.php" method="post">
+                    <div  class="nombre-correo">
+                        <div class="nombre">
+                            <input type="text" id="firstname" name="firstname" placeholder="Nombre">
+                        </div>
+                        <div class="correo">
+                            <input type="text" id="email" name="email" placeholder="E-mail">
+                        </div>
+                    </div>  
+                    <input type="text" id="subject" name="subject" placeholder="Tema">
+                    <textarea id="message" name="message" placeholder="Mensaje" style="height:200px"></textarea>
+                    <div class="btn"><input type="submit" value="Enviar"></div>
+                </form>
+            </div>
+        </div>
+
+        <div class="datos-empresa" id="datos-empresa">
+            <div class="dato-icono"><img src="./img/icono_telefono.png" alt="icono-telefono"></div>
+            <div><span>8120052731</span></div>
+            <div class="dato-icono"><img src="./img/icono_correo.png" alt="icono-correo"></div>
+            <div><span>fraccionamientolalobita@gmail.com</span></div>
+            <div class="dato-icono"><img src="./img/icono_facebook_datos.png" alt="icono-facebook"></div>
+            <div><span>Terreno Residencial La Lobita</span></div>
+            <div class="dato-icono"><img src="./img/icono_instagram.png" alt="icono-instagram"></div>
+            <div><span>terreno_residencial_lalobita</span></div>
+        </div>
+
+        <div class="datos-empresa-2" id="datos-empresa">
+            <div class="dato-icono">
+                <img src="./img/icono_telefono.png" alt="icono-telefono">
+                <span>8120052731</span>
+            </div>
+            <div class="dato-icono">
+                <img src="./img/icono_correo.png" alt="icono-correo">
+                <span>fraccionamientolalobita@gmail.com</span>
+            </div>
+            <div class="dato-icono">
+                <img src="./img/icono_facebook_datos.png" alt="icono-facebook">
+                <span>Terreno Residencial La Lobita</span>
+            </div>
+            <div class="dato-icono">
+                <img src="./img/icono_instagram.png" alt="icono-instagram">
+                <span>terreno_residencial_lalobita</span>
+            </div>
+        </div>
+        <iframe id="ubicacion" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47950.984748129165!2d-100.14488294706102!3d25.416357776515195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9596c99186569cb4!2zMjXCsDI1JzIzLjYiTiAxMDDCsDA3JzU1LjIiVw!5e0!3m2!1ses!2smx!4v1672699961827!5m2!1ses!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <footer>
+            <div class="cronos">
+                <span>Un desarrollo de:</span>
+                <br>
+                <img src="./img/cronos_logo.png" alt="cronos-logo">
+            </div>
+            <div class="footer-links">
+                <div class="links">
+                    <ul>
+                        <li><a href="#slider"><span>HOME</span></a></li>
+                        <li><br></li>
+                        <li><a href="#slider">INICIO</a></li>
+                        <li><a href="#mas-informacion">MÁS INFORMACIÓN</a></li>
+                        <li><a href="#contacto">CONTACTO</a></li>
+                        <li><a href="#ubicacion">UBICACIÓN</a></li>
+                        <li><br></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="#mas-informacion"><span>MAS INFORMACIÓN</span> </a></li>
+                        <li><br></li>
+                        <li><a href="#mas-informacion">PRESENTACIÓN</a></li>
+                        <li><a href="#lotes">LOTES</a></li>
+                        <li><a href="#integrado">INTEGRADO CON</a></li>
+                        <li id="li-vacio"><br></li>
+                        <li id="li-vacio"><br></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="#contacto"><span>CONTACTO</span></a></li>
+                        <li><br></li>
+                        <li><a href="#datos-empresa">DIRECCIÓN</a></li>
+                        <li><a href="#datos-empresa">TELÉFONO</a></li>
+                        <li><a href="#datos-empresa">CORREO</a></li>
+                        <li><a href="" target="_blank">FACEBOOK</a></li>
+                        <li><a href="">INSTAGRAM</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="#ubicacion"><span>UBICACIÓN</span></a></li>
+                        <li><br></li>
+                        <li><a href="">MAPA</a></li>
+                        <li id="li-vacio"><br></li>
+                        <li id="li-vacio"><br></li>
+                        <li id="li-vacio"><br></li>
+                        <li id="li-vacio"><br></li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="copyright">
+                <h4>© Copyright Campestre La Lobita.
+                    <br>
+                    Todos los derechos reservados.
+                </h4>
+            </div>
+        </footer>
+        
+        <script type="text/javascript" src="./script.js"></script>
+    </body>
+</html>

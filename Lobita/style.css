@@ -1,0 +1,350 @@
+/*Títulos*/
+@font-face {
+    font-family: "Barlow";
+    src: url(./fonts/Barlow_Condensed/BarlowCondensed-Black.ttf)format('truetype');
+}
+/*Textos*/
+@font-face {
+    font-family: "Garet";
+    src: url(./fonts/Garet/Garet-Book.ttf)format('truetype');
+}
+
+@font-face {
+    font-family: "Garet-Heavy";
+    src: url(./fonts/Garet/Garet-Heavy.ttf)format('truetype');
+}
+
+body{
+    font-family: "Garet";
+    margin:0;
+}
+
+#btn-info{
+    display:none;
+}
+
+.boton{
+    text-align: center;
+    background-color: #30492c;
+    font-size: 12px;
+    width:150px;
+    padding: 6px;
+    margin: 12px;
+    border: none;
+    border-radius: 14px;
+}
+
+.boton a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.botones{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    background: none;
+}
+
+/* CSS SLIDER */
+/* Slideshow container */
+.slideshow-container {
+    position:absolute;
+    top:0;
+    width:100%;
+    z-index: -100;
+  }
+  
+  /* Hide the images by default */
+.mySlides {
+    display: none;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 4.0s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .3}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .3}
+    to {opacity: 1}
+  }
+  .logo{
+    text-align: center;
+    padding: 150px;
+}
+
+.imagenes{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 46px;
+    margin:0;
+    width:100%;
+}
+
+.imagen-color img{
+    width:99%;
+}
+
+#img-2{
+    text-align: right;
+}
+
+h1{
+    font-family: Barlow;
+}
+.banner-verde{
+    text-align: center;
+    background-color: #30492c;
+    color: white;
+    padding:50px;
+    font-size: 20px;
+}
+.banner-blanco{
+    text-align: center;
+    color: #30492c;
+    background-color: white;
+    padding:50px;
+    padding-bottom: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+#integrado{
+    color: #30492c;
+    text-align: center;
+}
+
+.iconos{
+    display: flex;
+    justify-content:center;
+    margin-top: 0;
+}
+
+.icono{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top:50px;
+    text-align: center;
+}
+
+.formulario{
+    font-family: Garet;
+    text-align: center;
+    color:white;
+    background-image: url(./img/imagen_contacto.png);
+    width:100%;
+    padding-bottom: 60px;
+}
+
+.formulario h1{
+    font-family: Barlow;
+    padding-top: 50px;
+}
+input[type=text], select, textarea {
+    font-family: Garet;
+    font-size: 18px;
+    width: 95%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    font-family: Barlow;
+    font-size: 18px;
+    width:200px;
+    background-color:white;
+    color:#30492c;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color:#30492c;
+}
+
+.container {
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nombre-correo{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.nombre, .correo{
+    width:47%;
+    padding-left:14px;
+}
+
+.btn{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.datos-empresa{
+    display:flex;
+    flex-wrap: wrap;
+    height:80px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+}
+
+.dato-icono{
+    margin-right: -80px;
+}
+
+.datos-empresa-2{
+    display:none;
+}
+
+#mapa{
+    margin:0;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    font-family: Garet;
+    font-size: 14px;
+}
+
+.links ul{
+    list-style: none;
+    text-align: center;
+    padding: 40px;
+}
+
+.links span{
+    font-family: Garet-Heavy;
+}
+
+footer{
+    background-color: #30492c;
+    color:white;
+    font-family: Garet;
+}
+
+.footer-links{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright{
+    width:100%;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom:40px;
+}
+
+.cronos{
+    width:100%;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.cronos img{
+    padding:50px;
+}
+
+@media only screen and (max-width:700px){
+    .botones{
+        margin-top:0;
+    }
+    .boton{
+        width:80px;
+        height:20px;
+    }
+    #btn-inicio{
+        display: none;
+    }
+    #btn-mas-info{
+        display: none;
+    }
+    #btn-info{
+        display:block;
+    }
+    .logo{
+        padding:0;
+    }
+    .logo img{
+        padding-top: 10px;
+        width:30%;
+    }
+    .imagenes{
+        display:block;
+        padding-top: 0;
+    }
+    .banner-verde, .banner-blanco{
+        padding:20px;
+    }
+    .img-mapa{
+        width:100%;
+    }
+    .img-mapa img{
+        width:100%;
+    }
+    .icono{
+        padding:0;
+        margin:8px;
+    }
+    .container{
+        width:100%;
+    }
+    .nombre, .correo{
+        width:100%;
+        padding:0;
+    }
+    .datos-empresa{
+        display:none;
+    }
+    .dato-icono{
+        padding: 0;
+        margin-top:10px;
+    }
+    .dato-icono span{
+        padding-left: 5px;
+    }
+    .datos-empresa-2{
+        margin:10px;
+        display:block;
+    }
+    #li-vacio{
+        display:none;
+    }
+    .links{
+        padding:10px;
+    }
+    .links ul{
+        padding:0;
+    }
+    .footer-links{
+        display:block;
+    }
+}

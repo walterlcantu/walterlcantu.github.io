@@ -1,0 +1,6 @@
+Carrusel (solo dos fotos)
+
+-Barlow Condensed Black - Titulos
+-Garet Book - Textos
+
+Color verde RGB: #30492c
