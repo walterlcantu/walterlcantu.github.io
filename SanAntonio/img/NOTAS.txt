@@ -1,0 +1,3 @@
+Cocogoose Pro Thin - Texto principal
+Poppins ExtraBold - Encabezados
+Segoe UI - Botones pagina principal

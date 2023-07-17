@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Balcones de San Antonio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+        <link href='./img/icono_pestaña.ico' rel='shortcut icon' type='image/x-icon'>
+    </head>
+    <body>
+        <div class="banner" id="home">
+            <nav class="navbar">
+                <a href=""><img src="./img/icono_bsn.png" alt="Logo"></a>
+                <div class="navbar-links">
+                    <a href="#home">INICIO</a>
+                    <a href="#mas-informacion">MÁS INFORMACIÓN</a>
+                    <a href="#ubicacion">UBICACIÓN</a>
+                    <a href="#contacto">CONTACTO</a>
+                    <a href="" id="login">INICIAR SESIÓN</a>
+                </div>
+            </nav>
+            <div class="content">
+                <img src="./img/Logo_BSN.png" alt="Logo con letras">
+            </div>
+        </div>
+
+        <div class="info" id="mas-informacion">
+            <div class="patrimonio">
+                <h3>¡Cónocenos y comienza a construir tu patrimonio!</h3>
+            </div>
+            <div class="fondo-iglesia">
+                <div class="fotos">
+                    <div class="foto">
+                        <img src="./img/Fogateras.png" alt="fogateras">
+                    </div>
+                    <div class="foto">
+                        <img src="./img/Mirador.png" alt="mirador">
+                    </div>
+                    <div class="foto">
+                        <img src="./img/Gampling.png" alt="gampling">
+                    </div>
+                </div>
+                <div class="descripcion">
+                    <h1>Balcones de San Antonio "Sector Calabacillas"</h1>
+                    <h3>
+                        Rodeado de naturaleza en una de las zonas con <br> más plusvalía de Nuevo León
+                        se encuentra<br>"Balcones de San Antonio"
+                    </h3>
+                    <br>
+                    <h3>
+                        <span>88</span> terrenos campestres con vistas panorámicas.
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="lotes">
+            <div class="lotes-img">
+                <img src="./img/Lotes2.png" alt="lotes">
+            </div>
+            <div class="amenidades">
+                <span>Integrado con:</span><br>
+                <ul>
+                    <li>Cámaras y circuito cerrado</li>
+                    <li>Alumbrado público</li>
+                    <li>Luminaria</li>
+                    <li>Pavimento</li>
+                    <li>Cordones</li>
+                    <li>Luz subterránea</li>
+                    <li>Agua de pozo</li>
+                    <li>Vigilancia</li>
+                </ul>
+                <br>
+                <span>Amenidades:</span>
+                <ul>
+                    <li>Asadores</li>
+                    <li>Mirador con telescopio</li>
+                    <li>Glamping</li>
+                    <li>Fogateros</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="empresas">
+            <h3>Un desarrollo de Sistemas Técnicos del Noroeste SAPI de CV. <br>
+            y urbanización de Constructora Maiz Mier.</h3>
+            <div class="empresas-logos">
+                <img id="logo-noreste" src="./img/LOGO_NORESTE.png" width="10%" alt="logo noreste">
+                <img id="logo-maiz" src="./img/LOGO_MAIZ_MIER.png" width="25%" alt="logo maíz mier">
+            </div>
+        </div>
+
+        <div class="contacto" id="contacto">
+            <div class="datos-empresa">
+                <div class="dato">
+                    <div><img src="./img/icono_ubicacion.png" alt="icono ubicación"></div>
+                    <div><span>Edificio Connexity Av. Alfonso Reyes 2612,<br> Col. Del Paseo
+                        Residencial. Monterrey, <br> Nuevo León.
+                    </span></div>
+                </div>
+                <div class="dato">
+                    <div><img src="./img/icono_telefono.png" alt="icono teléfono"></div>
+                    <div><span>8120052731</span></div>
+                </div>
+                <div class="dato">
+                    <div><img src="./img/icono_correo.png" alt="icono correo"></div>
+                    <div><span>balconesdesanantonio@gmail.com</span></div>
+                </div>
+                <div class="dato">
+                    <div><a href="https://www.facebook.com/Balcones-de-San-Antonio-108242375483162" target="_blank"><img src="./img/icono_facebook_datos.png" alt="icono facebook"></a></div>
+                    <div><span>Balcones de San Antonio</span></div>
+                </div>
+                <div class="dato">
+                    <div><img src="./img/icono_instagram.png" alt="icono instagram"></div>
+                    <div><span>balcones_san_antonio</span></div>
+                </div>
+            </div>
+            <div class="formulario">
+                <h1>CONTACTO</h1>
+                <div class="container">
+                    <form action="sendemail.php" method="post">
+                        <div  class="nombre-correo">
+                            <div class="nombre">
+                                <input type="text" id="firstname" name="firstname" placeholder="Nombre">
+                            </div>
+                            <div class="correo">
+                                <input type="text" id="email" name="email" placeholder="E-mail">
+                            </div>
+                        </div>  
+                        <input type="text" id="subject" name="subject" placeholder="Tema">
+                        <textarea id="message" name="message" placeholder="Mensaje" style="height:200px"></textarea>
+                        <div class="boton"><input type="submit" value="Enviar"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1798.623721905776!2d-100.30366175340205!3d25.629911821882366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662bfaa9657c271%3A0xd2b273b42f4c1ca3!2sEdificio%20Connexity%2C%20Av.%20Alfonso%20Reyes%202612%2C%20Del%20Paseo%20Residencial%2C%2064920%20Monterrey%2C%20N.L.!5e0!3m2!1ses!2smx!4v1671591677459!5m2!1ses!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="ubicacion"></iframe>
+
+        <footer>
+            <div class="footer-links">
+                <div class="links">
+                    <ul>
+                        <li><a href="#home"><span>HOME</span></a></li>
+                        <li><br></li>
+                        <li><a href="#home">INICIO</a></li>
+                        <li><a href="#mas-informacion">MÁS INFORMACIÓN</a></li>
+                        <li><a href="">CONTACTO</a></li>
+                        <li><a href="#ubicacion">UBICACIÓN</a></li>
+                        <li><br></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="#mas-informacion"><span>MAS INFORMACIÓN</span> </a></li>
+                        <li><br></li>
+                        <li><a href="#home">PRESENTACIÓN</a></li>
+                        <li><a href="#mas-informacion">LOTES</a></li>
+                        <li><a href="#mas-informacion">AMENIDADES</a></li>
+                        <li id="li-vacio"><br></li>
+                        <li id="li-vacio"><br></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="#ubicacion"><span>UBICACIÓN</span></a></li>
+                        <li><br></li>
+                        <li><a href="https://goo.gl/maps/JrWaKXcnx9ZLAmgD9">MAPA</a></li>
+                        <li id="li-vacio"><br></li>
+                        <li id="li-vacio"><br></li>
+                        <li id="li-vacio"><br></li>
+                        <li id="li-vacio"><br></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href=""><span>CONTACTO</span></a></li>
+                        <li><br></li>
+                        <li><a href="#contacto">DIRECCIÓN</a></li>
+                        <li><a href="#contacto">TELÉFONO</a></li>
+                        <li><a href="#contacto">CORREO</a></li>
+                        <li><a href="https://www.facebook.com/Balcones-de-San-Antonio-108242375483162" target="_blank">FACEBOOK</a></li>
+                        <li><a href="">INSTAGRAM</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <h4>© Copyright Balcones de San Antonio.
+                    <br>
+                    Todos los derechos reservados.
+                </h4>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="./script.js"></script>    
+    </body>
+</html>

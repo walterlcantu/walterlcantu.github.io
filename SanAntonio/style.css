@@ -1,0 +1,432 @@
+/*Texto Principal*/
+@font-face {
+    font-family: "Cocogoose" ;
+    src: url(./fonts/cocogoose/Cocogoose\ Pro\ Thin-trial.ttf)format('truetype');
+}
+/*Encabezados*/
+@font-face {
+    font-family: "Poppins";
+    src: url(./fonts/poppins/Poppins-ExtraBold.ttf)format('truetype');
+}
+/*Botones Página Principal*/
+@font-face {
+    font-family: "Segoe";
+    src: url(./fonts/segoe-ui/Segoe\ UI.ttf)format('truetype');
+}
+
+body{
+    font-family: Cocogoose;
+    background-color: white;
+    margin: 0 0;
+    padding: 0px;
+
+}
+.banner {
+    background-image: url(./img/FONDO_IMAGEN_PRINCIPAL.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    -webkit-transition-duration: 3s;
+    -webkit-transition-timing-function: ease-in-out;
+}
+.navbar{
+    overflow: hidden;
+    text-align: right;
+    height: fit-content;
+    width: 100%;
+}
+.navbar-links{
+    padding-top: 30px;
+    padding-right: 60px;
+}
+.navbar img {
+    width: 70px;
+    float: left;
+    padding: 20px;
+    padding-top:30px;
+    padding-bottom: 0;
+    margin-left: 100px;
+}
+
+.navbar a {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-family: 'Segoe';
+    font-size: 14px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left:35px;
+    padding-right:35px;
+}
+
+@media only screen and (max-width:1024px){
+    
+    .navbar a{
+        display:none;
+        float: right;
+    }
+    .navbar img{
+        display:none;
+    }
+    #login{
+        display:block;
+        padding:0;
+        margin-right: -50px;
+        margin-top: -10px;
+        
+    }
+    .banner{
+        background-size:160%;
+    }
+}
+.content img{
+    width:20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+@media only screen and (max-width:700px){
+    .content img{
+        margin-top: 50px;
+        padding:10px;
+        width:50%;
+    }
+}
+
+.patrimonio {
+    background-image: url(./img/Banner_patrimonio.png);
+    background-size: cover;
+    height:150px;
+    margin:0;
+    padding-bottom: 50px;
+}
+
+.patrimonio h3{
+    margin-top:0;
+    margin-bottom:0;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    color:white;
+}
+
+.fondo-iglesia{
+    background-image: url(./img/iglesia_imagen.png);
+    background-size: cover;
+}
+
+.fotos{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:-70px;
+}
+
+.foto img{
+    width:320px;
+    padding: 40px;
+    box-shadow: black;
+}
+
+.descripcion {
+    color:green;
+    text-align: center;
+}
+
+.descripcion h1{
+    font-family: Poppins;
+}
+
+span{
+    font-family: Poppins;
+}
+
+.descripcion h3{
+    font-weight: 200;
+}
+
+
+.lotes{
+    display: flex;
+    color: green;
+    margin:0;
+}
+
+.lotes-img {
+    width:60%;
+}
+
+.lotes-img img{
+    width:100%;
+    
+}
+
+.amenidades{
+    width:40%;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width:1024px){
+    .patrimonio h3{
+        padding-top:30px;
+        padding-bottom: 0px;
+        font-size:16px;
+    }
+    .patrimonio {
+        padding-bottom:0px;
+    }
+    .foto img{
+        padding:20px;
+        width:280px;
+    }
+    .descripcion{
+        margin:10px;
+    }
+    .lotes{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .lotes-img img{
+        width:140%;
+        margin:10px;
+    }
+    .amenidades{
+        width:100%;
+        padding:0;
+        margin:0;
+        margin-left:10px;
+        font-size:18px;
+    }
+    
+}
+
+@media only screen and (min-width:1388px){
+    .lotes-img{
+        width:70%;
+    }
+}
+.empresas {
+    background-image: url(./img/imagen_desasollo_por.png);
+    background-size: cover;
+}
+
+.empresas h3{
+    margin-top:0;
+    margin-bottom:0;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    color:white;
+    font-weight: lighter;
+}
+
+.empresas-logos {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom:40px;
+}
+
+@media only screen and (max-width:1024px){
+    .empresas{
+        width:100%;
+        margin:0;
+        font-size: 14px;
+    }
+    #logo-noreste{
+        width:25%;
+    }
+    #logo-maiz{
+        width:35%;
+    }
+
+}
+.contacto{
+    display: flex;
+    margin:0;
+}
+
+.datos-empresa{
+    display:block;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    padding: 30px;
+}
+
+.dato{
+    margin-left:auto;
+    margin-right:auto;
+    padding:50px;
+    padding-right: 20px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.dato img{
+    width:39px;
+    padding-right:30px;
+    margin-top:-10px;
+}
+
+.dato span{
+    font-size: 14px;
+    font-family: Cocogoose;
+}
+
+.formulario{
+    text-align: center;
+    color:white;
+    background-image: url(./img/Fondo_contacto.png);
+    width:63%;
+}
+
+.formulario h1{
+    padding-top: 50px;
+}
+input[type=text], select, textarea {
+    width: 95%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: Cocogoose;
+}
+
+input[type=submit] {
+    font-family: Poppins;
+    font-size: 18px;
+    width:200px;
+    background-color:white;
+    color: green;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    text-align: left;
+    padding:80px;
+    padding-top:10px;
+}
+
+.nombre-correo{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.nombre, .correo{
+    width:48%;
+    padding-right:10px;
+}
+
+.boton{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+@media only screen and (max-width:1024px){
+    .contacto{
+        display: block;
+    }
+    .formulario{
+        width:100%;
+        margin-top:-40px;
+    }
+    .container{
+        padding:20px;
+        padding-right:10px;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .datos-empresa{
+        padding:10px;
+    }
+    .dato img{
+        width:30px;
+    }
+    .dato span{
+        font-size: 12px;
+    }
+    .dato {
+        padding:20px;
+    }
+}
+
+@media only screen and (min-width:1388px){
+    .datos-empresa{
+        width:40%;
+    }
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font-family: Cocogoose;
+    font-size: 14px;
+}
+
+.links ul{
+    list-style: none;
+    text-align: center;
+    padding: 40px;
+}
+
+footer{
+    background-image: url(./img/Fondo_piedepagina.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+}
+
+.footer-links{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright{
+    font-family: Cocogoose;
+    width:100%;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom:40px;
+}
+
+@media only screen and (max-width:1024px){
+    footer{
+        background-color: rgb(26, 25, 25);
+    }
+    .footer-links{
+        display:block;
+    }
+    .links ul{
+        padding:0;
+    }
+    .copyright{
+        margin-top:100px;
+        height:100px;
+    }
+    .nombre, .correo{
+        width:100%;
+    }
+    #li-vacio{
+        display:none;
+    }
+}
