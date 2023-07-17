@@ -1,0 +1,149 @@
+body {
+    background: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 0;
+}
+.navbar{
+    overflow: hidden;
+    text-align: right;
+    height: fit-content;
+    background-color: #ffffff;
+    width: 100%;
+}
+.navbar-links{
+    padding-top: 40px;
+    padding-right: 80px;
+}
+.navbar img {
+    width: 220px;
+    float: left;
+    padding: 20px;
+    padding-bottom: 0;
+    margin-left: 120px;
+}
+.navbar a {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.profile-image {
+    width: 280px;
+    margin-inline-end: 4rem;
+    border-radius: 50%;
+    height: fit-content;
+    margin-top: 50px;
+    opacity: 0.9;
+}
+.content {
+    padding:20px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.bio {
+    display: flex;
+   
+    
+}
+
+.bio p{
+    font-size: 20px;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.logo-responsive{
+    display:none;
+}
+
+@media (max-width: 1024px){
+    .bio {
+        flex-direction: column;
+    }
+    .profile-image {
+        margin: auto;
+    }
+    .navbar{
+        display: none;
+    }
+    .logo-responsive{
+        display:block;
+        width:200px;
+        margin:20px;
+        margin-top:0;
+    }
+}
+
+a.btn{
+    text-decoration: none;
+    color:#ffffe3;
+    background-color: #0042bb;
+    padding: 0 1rem;
+    height: 2.8rem;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 0.85rem;
+    margin-bottom: 20px;
+}
+
+article{
+    display: flex;
+    margin-top: 40px;
+    
+}
+.article-image {
+    width: 500px;
+    margin-left: 100px;
+    border-radius: 3%;
+}
+.work p {
+    font-size: 18px;
+    text-align: justify;
+    padding: 20px;
+}
+@media (max-width: 1024px){
+    article {
+        flex-direction: column;
+    }
+    .article-image{
+        width:100%;
+        margin-left: 0;
+    }
+}
+
+footer{
+    display: block;
+    text-align: center!important;
+    padding-top: 100px!important;
+    
+}
+.fa {
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: -8px;
+    font-size: 30px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook-square {
+    color: rgb(0, 0, 0);
+    
+}
+
+.fa-instagram {
+  color: rgb(0, 0, 0);
+}
+
+a:hover {
+    opacity: .5;
+}
